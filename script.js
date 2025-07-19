@@ -224,3 +224,127 @@
 //      alert(modulus)
 // }
 
+
+
+
+
+///////////Chapter-07
+
+////Question-01
+
+// let user_input = prompt("Enter a single character")
+
+
+// if(user_input.length !== 1){
+//     alert("Please enter only one character")
+// }
+// else{
+//     let charCode = user_input.charCodeAt(0)
+
+//     if(charCode >= 48 && charCode <= 57){
+//         alert("The input is a number")
+//     } else if(charCode >= 65 && charCode <= 90){
+//         alert("The input is an uppercase letter.")
+//     }else if (charCode >= 97 && charCode <= 122){
+//         alert("The input is a lowercase letter")
+//     }else{
+//         alert("The input is not a number or letter")
+//     }
+// }
+
+
+
+
+/////Question-02
+
+
+// let user_num = prompt("Enter the first integer")
+// let user_num_00 = prompt("Enter the second integer")
+
+// if(user_num > user_num_00){
+//     alert("The larger number is: " + user_num);
+// }else if(user_num_00 > user_num){
+//     alert("The larger number is: " + user_num_00);
+    
+// }else{
+//     alert("Both numbers are equal")
+// }
+
+
+
+////Question-03
+
+
+// let user_num = prompt("Enter a number");
+
+// if(user_num > 0){
+//     alert("The number is positive")
+// }else if(user_num < 0){
+//     alert("The number is negative")
+// }else{
+//     alert("The number is zero")
+// }
+
+
+
+/////Question-04
+
+// let vowel = prompt("Enter a single character:");
+
+// if (vowel.length !== 1) {
+//   alert("Please enter exactly one character.");
+// } else {
+//   const isVowel = "aeiouAEIOU".includes(vowel);
+//   alert(isVowel);
+// }
+
+
+
+//////Question-05
+
+// let correct_password = "helloworld";
+
+// let user_pass = prompt("Enter the correct password");
+
+// if(user_pass === ""){
+//     alert("Please enter your password");
+// }else if(correct_password === user_pass){
+//     alert("Correct! The password you entered matches the original password");
+// }else{
+//     alert("Incorrect password! Try again");
+// }
+
+
+
+//////Question-06
+
+
+// let user_time = prompt("Enter your exact time zone")
+// var greeting_00 = "Good Day";
+// var greeting_01 = "Good evening"
+// if (user_time < 18) {
+//  alert(greeting_00)}
+// else{
+// alert(greeting_01);
+// }
+
+
+
+/////Question-07
+
+
+// let user_time = prompt("Enter a time (between 0-24)");
+
+// if(user_time === ""|| user_time < 0 || user_time > 24){
+//     alert("Please enter a valid time between 0-24")
+// }else if(user_time >= 0 && user_time < 12){
+//     alert("Good Morning")
+// }else if(user_time >= 12 && user_time < 17){
+//     alert("Good Afternoon");
+// }else if(user_time >= 17 && user_time < 21){
+//     alert("Good Evening")
+// }else if(user_time >= 21 && user_time <= 24){
+//     alert("Good Night")
+// }else {
+//     alert("Time doesn't match with any condition")
+// }
